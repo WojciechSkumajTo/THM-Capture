@@ -15,32 +15,22 @@ Difficulty: Easy
 | *login page* |
 
 
-## Username Attack
-
-- Run the Python 3 code in the terminal (or command prompt):
-```shell
-  python3 get_username.py 
-```
-![image](https://user-images.githubusercontent.com/70896562/236878478-76e1bc20-cabe-4481-905c-403b4dfce1f8.png)
-|:--:| 
-| *The result of the get_username.py script* |
-
-## Password Attack
-
 The "Error: Invalid password for user '^^^'" message can be used by hackers as a valuable clue to launch a login attack. Users can use this information to run a brute-force or dictionary attack on the '^^^' user's account to find the correct password.
-
 ![image](https://user-images.githubusercontent.com/70896562/236879740-cd94372f-ff9b-44d7-a1a2-f8b9172f3baf.png)
 |:--:| 
 | *login page* |
 
 
+## Dictionary attack
+
 - Run the Python 3 code in the terminal (or command prompt):
 ```shell
-  python3 get_password.py 
+  python3 dictionary_attack.py <IP_VICTIM>
 ```
-![image](https://user-images.githubusercontent.com/70896562/236879273-74458d81-3612-4e57-b443-c54d57bad243.png)
+![image](https://github.com/WojciechSkumajTo/THM-Capture/assets/70896562/7f4a9d27-26f5-47ce-a4a4-d6543d695d61)
 |:--:| 
-| *The result of the get_password.py script* |
+| *The result of the dictionary_attack.py* |
+
 
 ## Summary
 Obtaining credentials led to gaining access to a protected web application and obtaining the flag.
